@@ -1,0 +1,15 @@
+AWS: Educate
+
+What are Pointers?
+Pointers are one of the most important aspects of C++. Pointers are another type of variables in CPP and these variables store addresses of other variables.
+While creating a pointer variable, we need to mention the type of data of which address is stored in the pointer. e.g. in order to create a pointer which stores address of an integer, we need to write:
+int* p;
+This means that p will contain address of an integer. So, if a pointer is going to store address of datatype X, it will be declared like this:
+X* p;
+Now lets say we have an integer i & an integer pointer p, we will use addressof(&) operator in order to put address of i in p. Address of operator:& is a unary operator which returns address of a variable. e.g. &i will give us address of variable i. Here is the code to put address of i in p.
+int i;
+int* p;
+p = &i;
+Summary
+
+Pointers are one of the most powerful aspects of CPP. In these notes lets understand how they work!
